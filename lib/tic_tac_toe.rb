@@ -82,7 +82,7 @@ class TicTacToe
     end
   end
   def play
-    unitl self.over?
+    until self.over?
       self.turn
     end
     if self.won?
