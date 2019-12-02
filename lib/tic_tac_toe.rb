@@ -82,9 +82,8 @@ class TicTacToe
     end
   end
   def play
-    while !self.over?
+    unitl self.over?
       self.turn
-      self.over?
     end
     if self.won?
       puts "Congratulations #{self.winner}!"
