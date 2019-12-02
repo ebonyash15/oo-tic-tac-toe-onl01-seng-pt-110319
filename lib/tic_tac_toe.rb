@@ -83,7 +83,6 @@ class TicTacToe
   end
   def play
     while !self.over?
-      self.current_player
       self.turn
       self.draw?
       self.over?
