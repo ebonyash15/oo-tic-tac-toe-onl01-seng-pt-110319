@@ -71,7 +71,7 @@ class TicTacToe
     end
   end
   def over?
-    true if self.won? || self.full?
+    true if self.won? || self.full? || self.draw?
   end
   def winner
     if !self.won?
