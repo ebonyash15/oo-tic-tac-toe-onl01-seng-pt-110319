@@ -84,7 +84,6 @@ class TicTacToe
   def play
     while !self.over?
       self.turn
-      self.draw?
       self.over?
     end
     if self.won?
